@@ -33,5 +33,24 @@ public class IndexOdWith2Parameters {
 
         // How do i start from the location that get past first Java
         // basically starting point different that 0 so that It get past first Java
+        int fistJavaLocation = name.indexOf("Java"); // location of first java in this case 7
+        // starting point can be right after the index of first character of the word
+        // or you can start here  + 4
+        // or you can start write after you finish the word you are searching , for the word java  + 4
+        // if we do not know the length of the word -->> + word.length()
+        int startingPointToSearchSecondJava = fistJavaLocation + 1;
+        int secondJavaLocation = name.indexOf("Java", startingPointToSearchSecondJava);
+
+        System.out.println("second Java Location = " + secondJavaLocation);
+
+        // I do not know how many word in this sentence . I only know there 3+ words
+        // and there is only one space in between words
+        // I just want to know what is the second word
+        // the word in between first space and second space is second word
+        int firstSpaceLocation = name.indexOf(" ");
+        int secondSpaceLocation = name.indexOf(" ", firstSpaceLocation + 1);
+
+        System.out.println("Second word in this sentence is : "
+                + name.substring(firstSpaceLocation + 1, secondSpaceLocation));
     }
 }
