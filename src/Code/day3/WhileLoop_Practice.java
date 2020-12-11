@@ -46,5 +46,22 @@ public class WhileLoop_Practice {
         System.out.println();
         System.out.println("counter after decrement = " + counter);
 
+
+        System.out.println("*********************");
+
+        int sum=0 , d=1;
+
+        while (d<10){
+            sum+=d;
+            d++;
+        }
+        System.out.println("sum is "+sum);
+        System.out.println("*********************");
+
+        int count=0;
+        while (count<=100){
+            System.out.println(count+". Welcome to Java");
+            count++;
+        }
     }
 }
