@@ -1,4 +1,4 @@
-package Code.day2;
+package Code.Loop.While_Loop.day2;
 
 public class WhileLoopPractice {
     public static void main(String[] args) {

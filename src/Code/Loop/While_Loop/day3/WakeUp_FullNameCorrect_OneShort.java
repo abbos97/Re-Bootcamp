@@ -1,4 +1,4 @@
-package Code.day3;
+package Code.Loop.While_Loop.day3;
 
 public class WakeUp_FullNameCorrect_OneShort {
     public static void main(String[] args) {

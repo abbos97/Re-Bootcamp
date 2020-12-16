@@ -1,4 +1,4 @@
-package Code.day2;
+package Code.Loop.While_Loop.day2;
 
 public class CountFrom10To1 {
     public static void main(String[] args) {

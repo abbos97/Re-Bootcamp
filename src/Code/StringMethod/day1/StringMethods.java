@@ -1,4 +1,4 @@
-package Code.day1;
+package Code.StringMethod.day1;
 
 public class StringMethods {
     public static void main(String[] args) {

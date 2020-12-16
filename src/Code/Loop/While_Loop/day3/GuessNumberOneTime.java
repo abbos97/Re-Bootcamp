@@ -1,4 +1,4 @@
-package Code.day3;
+package Code.Loop.While_Loop.day3;
 
 import java.util.Scanner;
 

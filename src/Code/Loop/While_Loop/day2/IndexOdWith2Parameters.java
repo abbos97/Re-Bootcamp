@@ -1,4 +1,4 @@
-package Code.day2;
+package Code.Loop.While_Loop.day2;
 
 public class IndexOdWith2Parameters {
     public static void main(String[] args) {
